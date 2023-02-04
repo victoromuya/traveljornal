@@ -11,3 +11,264 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  width: 100%;
+  background-color: rgb(243, 87, 87);
+  max-width: 100%;
+  align-items: center;
+  height: 60px;
+  display: inline-flex;
+  text-align: center;
+  
+  
+}
+
+.nav-logo{
+  width: 40px;
+  margin-left: 40%;
+}
+
+nav h3{
+  margin-top: 12px;
+  color: white;
+}
+
+
+.main{
+  margin-top: 5%;
+  padding-left: 25%;
+}
+
+.content{
+  display: flex;
+  position: relative;
+  max-height: 20%;
+
+}
+
+.content-img{
+  max-width: 20%;
+  max-height: 20%;
+  margin: 0;
+}
+ .content-img img{
+  height: 90%;
+  width: 90%;
+  border-radius: 10px;
+ 
+ }
+
+ .info {
+  max-width: 60%;
+  max-height: 50%;
+  padding-top: 5px;
+  padding-left: 0;
+  margin-left: 0;
+ }
+ p{
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 10px;
+ }
+
+ .main h3{
+  font-size: 40px;
+  padding-bottom: 15px;
+  margin: 0;
+ }
+
+ .location{
+  font-size: 14px;
+ }
+
+ .location a{
+  padding-left: 10px;
+  text-decoration: none;
+ }
+
+ .location i{
+  color: red;
+  padding-right: 10px;
+ }
+
+ .country {
+  letter-spacing: 5px;
+ }
+
+ 
+
+ @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .nav{
+    width: 100%;
+  }  
+  
+  .nav-logo{
+      margin-left: 25%;
+    }
+
+    .content{
+      max-height: 15%;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+
+    .info {
+      max-width: 60%;
+      max-height: 70%;
+      padding-top: 10px;
+      margin-left: 10px;
+     }
+
+     .location{
+      font-size: 12px;
+     }
+
+     .content-img img{
+      height: 90%;
+      width: 100%;
+      border-radius: 10px;
+     }
+
+     .describe p{
+      font-size: 10px;
+      max-width: 90%;
+     }
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 4)  {
+    .nav-logo{
+      margin-left: 25%;
+    }
+    .nav{
+      width: 100%;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+
+    .info {
+      max-width: 50%;
+      max-height: 70%;
+      padding-top: 10px;
+      margin-left: 10px;
+     }
+
+     .location{
+      font-size: 10px;
+     }
+
+     .content-img img{
+      height: 95%;
+      width: 100%;
+      border-radius: 10px;
+     }
+
+     .describe h3{
+      font-size: 40px;
+      max-width: 100%;
+     }
+
+     .describe p{
+      font-size: 20px;
+      max-width: 80%;
+     }
+  }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 3)  {
+    .nav-logo{
+      margin-left: 15%;
+    }
+    .nav{
+      width: 100%;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      padding: 10px;
+    }
+
+    .info {
+      max-width: 60%;
+      max-height: 50%;
+      padding-top: 0;
+      margin-left: 10px;
+     }
+
+     .location{
+      font-size: 8px;
+      margin-bottom: 0;
+     }
+
+     .content-img img{
+      height: 90%;
+      width: 100%;
+      border-radius: 10px;
+     }
+
+     .describe h3{
+      font-size: 20px;
+      max-width: 80%;
+      padding-bottom: 0;
+     }
+
+     .describe p{
+      font-size: 8px;
+      max-width: 90%;
+     }
+  }
+
+  
+
+  @media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+    .nav-logo{
+      margin-left: 35%;
+    }
+
+    .main{
+      width: 100%;
+      height: 100%;
+      margin-left: 0;
+      padding: 20px;
+    }
+
+    .info {
+      max-width: 60%;
+      max-height: 70%;
+      padding-top: 10px;
+      margin-left: 30px;
+     }
+
+     .location{
+      font-size: 20px;
+     }
+
+     .content-img img{
+      height: 90%;
+      width: 100%;
+      border-radius: 10px;
+     }
+
+     .describe p{
+      font-size: 19.5px;
+      max-width: 90%;
+     }
+
+     .describe h3{
+      font-size: 45px;
+      max-width: 100%;
+     }
+  }
+
+
