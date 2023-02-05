@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/.github.io/traveljornal/static/css/main.2ca177af.css",
+    "main.js": "/.github.io/traveljornal/static/js/main.1de52d47.js",
+    "static/media/player.JPG": "/.github.io/traveljornal/static/media/player.962fe61db05263f6c0fe.JPG",
+    "static/media/world-logo.JPG": "/.github.io/traveljornal/static/media/world-logo.ca7c454d989c3c9fc822.JPG",
+    "index.html": "/.github.io/traveljornal/index.html",
+    "main.2ca177af.css.map": "/.github.io/traveljornal/static/css/main.2ca177af.css.map",
+    "main.1de52d47.js.map": "/.github.io/traveljornal/static/js/main.1de52d47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2ca177af.css",
+    "static/js/main.1de52d47.js"
+  ]
+}
