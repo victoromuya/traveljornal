@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/traveljornal/static/css/main.2ca177af.css",
+    "main.css": "/traveljornal/static/css/main.c3df516f.css",
     "main.js": "/traveljornal/static/js/main.ecf476c5.js",
     "static/media/player.JPG": "/traveljornal/static/media/player.962fe61db05263f6c0fe.JPG",
     "static/media/world-logo.JPG": "/traveljornal/static/media/world-logo.ca7c454d989c3c9fc822.JPG",
     "index.html": "/traveljornal/index.html",
-    "main.2ca177af.css.map": "/traveljornal/static/css/main.2ca177af.css.map",
+    "main.c3df516f.css.map": "/traveljornal/static/css/main.c3df516f.css.map",
     "main.ecf476c5.js.map": "/traveljornal/static/js/main.ecf476c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ca177af.css",
+    "static/css/main.c3df516f.css",
     "static/js/main.ecf476c5.js"
   ]
 }
